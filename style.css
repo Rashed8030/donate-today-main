@@ -1,0 +1,179 @@
+*{margin:0px;padding: 0px;font-family: 'Roboto', sans-serif;}
+
+img{max-width: 100%;}
+
+.container{width: 1200px; margin: auto;}
+
+/* This is Banner */
+
+.Banner-image{padding: 200px;
+    background-image: url("images/donation0.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.Banner-image::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.main-banner {
+    text-align: center;
+  }
+  
+ .banner-header {
+        font-weight: 700;
+        font-size: 50px;
+        width: 708px;
+        text-align: center;
+        margin: auto;
+        color: white;
+      }
+      .banner-pera {
+        width: 566px;
+        line-height: 28px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: white;
+      }
+        
+      
+.primary-btn {
+        padding: 15px 30px;
+        background: #ff5959;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+      }
+
+/* This is about */
+
+ .about-section {
+        width: 600px;
+        margin: auto;
+        text-align: center;
+        padding-top: 60px;
+      }
+.itam {
+        border: 1px solid tomato;
+      }
+ .about-section h1 {
+        font-size: 45px;
+        margin: 20px 0px;}
+.about-section p {
+        color: #707070;
+        padding-bottom: 20px;}
+.five-item {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin: auto;
+    padding: 20px 0px;}
+ .five-item h1 {
+    background:#fafafa;
+    padding: 25px;
+    border-radius: 5px;}
+  .Backgrounds{
+    background: #ff5959; !important
+  }
+  .last-about {
+    text-align: center;
+  }
+  .last-about p {
+    margin-bottom: 20px;
+  }
+  .about-btn {
+    margin-top: 30px;
+  }
+  .underline {
+    width: 650px;
+    margin: auto;
+  }
+
+  /* This is item */
+
+  .Item-one {
+    display: flex;}
+  .three-itamm {
+    width: 30%;
+    background: gray;
+    padding: 50px 20px 50px 20px;
+    margin-top: 70px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  .three-itamm h2 {
+    margin: 25px 0px;
+  }
+  .three-itamm p {
+    line-height: 28px;
+    font-weight: 500;
+    color: #707070;
+  }
+  .background-one{background-color:#a5dde4;}
+  .background-two{ background-color: #f59393;}
+  .background-three{ background-color: #e5cf85;}
+
+  .left-text {
+    width: 49%;
+    text-align: left;
+    padding-right: 30px;
+  }
+  .right-text{width: 49%;}
+  .Rashed {
+    display: flex;
+    margin-top: 150px;
+  }
+  .donate-btn {
+    font-weight: 600;
+    font-size: 19px;
+  }
+  .Nirob {
+    padding: 20px 0px 20px 30px;
+  }
+
+  /* This is a input */
+  .input-section {
+    width: 750px;
+    margin: auto;
+    text-align: center;
+    background: rgb(233, 221, 146);
+    padding: 60px;
+  }
+  .input-file {
+    padding: 20px 50px 21px 25px;
+    border: none;
+    margin-right: -12px;
+    border-radius: 5px;
+    font-size: 16px;}
+  
+.jonaid {
+    padding: 20px 20px 21px 20px;
+    border-radius: 0px;
+  }
+
+  .bottom-footer {
+    margin: auto;
+      margin-top: auto;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+    margin-top: 70px;
+  }
+  .bottom-footer h1 {
+    color: red;
+    padding-bottom: 15px;
+    font-style: italic;
+  }
+  /* This is Ends */
